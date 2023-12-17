@@ -179,21 +179,27 @@ align-items: center
     animation: slide-in-fwd-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
    
 }
+
 @media (max-width:600px) {
   .contact
   {position: absolute;
     top: -10px;
   }
   .container{
-    width: 90%;
+    width: 100%;
+
   }
   .form>input{
-width: 90%;
+width: 100%;
   }
   .singleimg{
     position: absolute;
     top: 541px;
     right: 93px;
+  }
+  .logo{
+ height: 224px;
+  width: 390px;
   }
 }
 @-webkit-keyframes focus-in-expand-fwd {
